@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"strings"
 
+	log "github.com/Augustu/go-micro/v2/logger"
 	"github.com/micro/cli/v2"
-	log "github.com/micro/go-micro/v2/logger"
 	"github.com/micro/micro/v2/plugin"
 )
 

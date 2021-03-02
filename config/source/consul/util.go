@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/Augustu/go-micro/v2/config/encoder"
 	"github.com/hashicorp/consul/api"
-	"github.com/micro/go-micro/v2/config/encoder"
 )
 
 type configValue interface {

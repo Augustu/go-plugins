@@ -3,10 +3,10 @@ package ratelimit
 import (
 	"time"
 
+	"github.com/Augustu/go-micro/v2/client"
+	"github.com/Augustu/go-micro/v2/errors"
+	"github.com/Augustu/go-micro/v2/server"
 	"github.com/juju/ratelimit"
-	"github.com/micro/go-micro/v2/client"
-	"github.com/micro/go-micro/v2/errors"
-	"github.com/micro/go-micro/v2/server"
 
 	"context"
 )

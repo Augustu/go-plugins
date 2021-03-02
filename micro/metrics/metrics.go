@@ -4,12 +4,12 @@ package metrics
 import (
 	"net/http"
 
+	log "github.com/Augustu/go-micro/v2/logger"
 	"github.com/micro/cli/v2"
-	log "github.com/micro/go-micro/v2/logger"
-	"github.com/micro/micro/v2/plugin"
+	"github.com/Augustu/micro/v2/plugin"
 
 	// prometheus metrics
-	"github.com/micro/go-plugins/micro/metrics/prometheus/v2"
+	"github.com/Augustu/go-plugins/micro/metrics/prometheus/v2"
 )
 
 type Metrics struct {

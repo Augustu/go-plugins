@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
+	"github.com/Augustu/go-micro/v2/registry"
 	"github.com/hashicorp/memberlist"
-	"github.com/micro/go-micro/v2/registry"
 )
 
 type secretKey struct{}

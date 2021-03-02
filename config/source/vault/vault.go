@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/Augustu/go-micro/v2/config/source"
 	"github.com/hashicorp/vault/api"
-	"github.com/micro/go-micro/v2/config/source"
 )
 
 // Currently a single vault reader

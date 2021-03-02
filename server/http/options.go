@@ -3,10 +3,10 @@ package http
 import (
 	"context"
 
-	"github.com/micro/go-micro/v2/broker"
-	"github.com/micro/go-micro/v2/codec"
-	"github.com/micro/go-micro/v2/registry"
-	"github.com/micro/go-micro/v2/server"
+	"github.com/Augustu/go-micro/v2/broker"
+	"github.com/Augustu/go-micro/v2/codec"
+	"github.com/Augustu/go-micro/v2/registry"
+	"github.com/Augustu/go-micro/v2/server"
 )
 
 func newOptions(opt ...server.Option) server.Options {

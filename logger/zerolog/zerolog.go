@@ -11,7 +11,7 @@ import (
 	zlog "github.com/rs/zerolog/log"
 	"github.com/rs/zerolog/pkgerrors"
 
-	"github.com/micro/go-micro/v2/logger"
+	"github.com/Augustu/go-micro/v2/logger"
 )
 
 type Mode uint8
@@ -94,7 +94,7 @@ func (l *zeroLogger) Init(opts ...logger.Option) error {
 	if l.opts.ReportCaller {
 		l.zLog = l.zLog.With().Caller().Logger()
 	}
-	
+
 	// Adding hooks if exist
 	for _, hook := range l.opts.Hooks {
 		l.zLog = l.zLog.Hook(hook)

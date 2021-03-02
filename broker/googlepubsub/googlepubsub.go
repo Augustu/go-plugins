@@ -7,10 +7,10 @@ import (
 	"time"
 
 	"cloud.google.com/go/pubsub"
+	"github.com/Augustu/go-micro/v2/broker"
+	"github.com/Augustu/go-micro/v2/config/cmd"
+	log "github.com/Augustu/go-micro/v2/logger"
 	"github.com/google/uuid"
-	"github.com/micro/go-micro/v2/broker"
-	"github.com/micro/go-micro/v2/config/cmd"
-	log "github.com/micro/go-micro/v2/logger"
 	"google.golang.org/api/option"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

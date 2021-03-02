@@ -2,9 +2,9 @@
 package etcdv3
 
 import (
-	"github.com/micro/go-micro/v2/config/cmd"
-	"github.com/micro/go-micro/v2/registry"
-	"github.com/micro/go-micro/v2/registry/etcd"
+	"github.com/Augustu/go-micro/v2/config/cmd"
+	"github.com/Augustu/go-micro/v2/registry"
+	"github.com/Augustu/go-micro/v2/registry/etcd"
 )
 
 func init() {

@@ -1,6 +1,6 @@
 # Router Plugin
 
-The router plugin is a HTTP handler plugin for the Micro API which enables you to define routes via [Go Config](https://github.com/micro/go-micro/config).
+The router plugin is a HTTP handler plugin for the Micro API which enables you to define routes via [Go Config](https://github.com/Augustu/go-micro/config).
 This is dynamic configuration that can then be leveraged via anything that implements the go-config interface e.g file, etcd, consul 
 or the config service.
 
@@ -26,7 +26,7 @@ package main
 
 import (
 	"github.com/micro/micro/v2/plugin"
-	"github.com/micro/go-plugins/micro/router/v2"
+	"github.com/Augustu/go-plugins/micro/router/v2"
 )
 
 func init() {

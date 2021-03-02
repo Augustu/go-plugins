@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/Augustu/go-micro/v2/registry"
 	"github.com/hudl/fargo"
-	"github.com/micro/go-micro/v2/registry"
 )
 
 func appToService(app *fargo.Application) []*registry.Service {
@@ -48,7 +48,7 @@ func appToService(app *fargo.Application) []*registry.Service {
 			}
 		}
 
-                host, _, _ := net.SplitHostPort(addr)
+		host, _, _ := net.SplitHostPort(addr)
 
 		// append node
 		service.Nodes = append(service.Nodes, &registry.Node{

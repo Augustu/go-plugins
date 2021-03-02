@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Augustu/go-micro/v2/registry"
 	"github.com/google/uuid"
 	"github.com/hashicorp/memberlist"
-	"github.com/micro/go-micro/v2/registry"
 )
 
 func newMemberlistConfig() *memberlist.Config {

@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"strings"
 
+	"github.com/Augustu/go-micro/v2/client"
 	"github.com/micro/cli/v2"
-	"github.com/micro/go-micro/v2/client"
 	"github.com/micro/micro/v2/plugin"
 )
 
@@ -17,8 +17,8 @@ type allow struct {
 func (w *allow) Flags() []cli.Flag {
 	return []cli.Flag{
 		&cli.StringFlag{
-			Name:   "rpc_allow",
-			Usage:  "Comma separated allow of allowed services for RPC calls",
+			Name:    "rpc_allow",
+			Usage:   "Comma separated allow of allowed services for RPC calls",
 			EnvVars: []string{"RPC_ALLOW"},
 		},
 	}

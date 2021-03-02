@@ -21,11 +21,11 @@ import (
 	"strings"
 	"time"
 
+	"github.com/Augustu/go-micro/v2/broker"
+	"github.com/Augustu/go-micro/v2/codec/json"
+	"github.com/Augustu/go-micro/v2/config/cmd"
+	log "github.com/Augustu/go-micro/v2/logger"
 	mqtt "github.com/eclipse/paho.mqtt.golang"
-	"github.com/micro/go-micro/v2/broker"
-	"github.com/micro/go-micro/v2/codec/json"
-	"github.com/micro/go-micro/v2/config/cmd"
-	log "github.com/micro/go-micro/v2/logger"
 )
 
 type mqttBroker struct {

@@ -3,9 +3,9 @@ package redis
 import (
 	"fmt"
 
+	log "github.com/Augustu/go-micro/v2/logger"
+	"github.com/Augustu/go-micro/v2/store"
 	"github.com/go-redis/redis/v7"
-	log "github.com/micro/go-micro/v2/logger"
-	"github.com/micro/go-micro/v2/store"
 )
 
 type rkv struct {

@@ -3,9 +3,9 @@ package kafka
 import (
 	"context"
 
+	"github.com/Augustu/go-micro/v2/broker"
+	log "github.com/Augustu/go-micro/v2/logger"
 	"github.com/Shopify/sarama"
-	"github.com/micro/go-micro/v2/broker"
-	log "github.com/micro/go-micro/v2/logger"
 )
 
 var (

@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Augustu/go-micro/v2/store"
 	"github.com/kr/pretty"
-	"github.com/micro/go-micro/v2/store"
 )
 
 func TestEtcd(t *testing.T) {

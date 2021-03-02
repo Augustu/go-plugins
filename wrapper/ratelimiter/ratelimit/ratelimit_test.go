@@ -7,14 +7,14 @@ import (
 
 	"context"
 
+	bmemory "github.com/Augustu/go-micro/v2/broker/memory"
+	"github.com/Augustu/go-micro/v2/client"
+	"github.com/Augustu/go-micro/v2/client/selector"
+	"github.com/Augustu/go-micro/v2/errors"
+	rmemory "github.com/Augustu/go-micro/v2/registry/memory"
+	"github.com/Augustu/go-micro/v2/server"
+	tmemory "github.com/Augustu/go-micro/v2/transport/memory"
 	"github.com/juju/ratelimit"
-	bmemory "github.com/micro/go-micro/v2/broker/memory"
-	"github.com/micro/go-micro/v2/client"
-	"github.com/micro/go-micro/v2/client/selector"
-	"github.com/micro/go-micro/v2/errors"
-	rmemory "github.com/micro/go-micro/v2/registry/memory"
-	"github.com/micro/go-micro/v2/server"
-	tmemory "github.com/micro/go-micro/v2/transport/memory"
 )
 
 type testHandler struct{}

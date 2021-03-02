@@ -5,14 +5,14 @@ import (
 	"net/http"
 	"strings"
 
+	log "github.com/Augustu/go-micro/v2/logger"
 	"github.com/micro/cli/v2"
-	log "github.com/micro/go-micro/v2/logger"
 	"github.com/micro/micro/v2/plugin"
 
 	// enterprise auth
-	"github.com/micro/go-plugins/micro/auth/v2/basic"
-	"github.com/micro/go-plugins/micro/auth/v2/digest"
-	"github.com/micro/go-plugins/micro/auth/v2/ldap"
+	"github.com/Augustu/go-plugins/micro/auth/v2/basic"
+	"github.com/Augustu/go-plugins/micro/auth/v2/digest"
+	"github.com/Augustu/go-plugins/micro/auth/v2/ldap"
 )
 
 type Auth struct {

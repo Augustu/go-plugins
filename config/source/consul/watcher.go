@@ -3,10 +3,10 @@ package consul
 import (
 	"time"
 
+	"github.com/Augustu/go-micro/v2/config/encoder"
+	"github.com/Augustu/go-micro/v2/config/source"
 	"github.com/hashicorp/consul/api"
 	"github.com/hashicorp/consul/api/watch"
-	"github.com/micro/go-micro/v2/config/encoder"
-	"github.com/micro/go-micro/v2/config/source"
 )
 
 type watcher struct {

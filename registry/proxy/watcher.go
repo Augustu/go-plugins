@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"time"
 
+	log "github.com/Augustu/go-micro/v2/logger"
+	"github.com/Augustu/go-micro/v2/registry"
 	"github.com/gorilla/websocket"
-	log "github.com/micro/go-micro/v2/logger"
-	"github.com/micro/go-micro/v2/registry"
 )
 
 const (

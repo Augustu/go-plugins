@@ -1,8 +1,8 @@
-module github.com/micro/go-plugins/broker/mqtt/v2
+module github.com/Augustu/go-plugins/broker/mqtt/v2
 
-go 1.13
+go 1.16
 
 require (
+	github.com/Augustu/go-micro/v2 v2.9.3
 	github.com/eclipse/paho.mqtt.golang v1.2.0
-	github.com/micro/go-micro/v2 v2.9.1
 )

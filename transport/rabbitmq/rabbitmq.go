@@ -8,11 +8,12 @@ import (
 	"time"
 
 	"errors"
+
 	"github.com/google/uuid"
 	"github.com/streadway/amqp"
 
-	"github.com/micro/go-micro/v2/config/cmd"
-	"github.com/micro/go-micro/v2/transport"
+	"github.com/Augustu/go-micro/v2/config/cmd"
+	"github.com/Augustu/go-micro/v2/transport"
 )
 
 const (

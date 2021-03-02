@@ -1,8 +1,8 @@
 package hystrix
 
 import (
+	"github.com/Augustu/go-micro/v2/client"
 	"github.com/afex/hystrix-go/hystrix"
-	"github.com/micro/go-micro/v2/client"
 
 	"context"
 )

@@ -9,11 +9,11 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/Augustu/go-micro/v2/client"
+	"github.com/Augustu/go-micro/v2/client/selector"
+	"github.com/Augustu/go-micro/v2/registry/memory"
+	"github.com/Augustu/go-micro/v2/server"
 	metrics "github.com/VictoriaMetrics/metrics"
-	"github.com/micro/go-micro/v2/client"
-	"github.com/micro/go-micro/v2/client/selector"
-	"github.com/micro/go-micro/v2/registry/memory"
-	"github.com/micro/go-micro/v2/server"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/Augustu/go-micro/v2/registry"
 	"github.com/hudl/fargo"
-	"github.com/micro/go-micro/v2/registry"
 )
 
 func TestServiceToInstance(t *testing.T) {

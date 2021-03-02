@@ -11,10 +11,10 @@ import (
 	"sync"
 	"time"
 
+	"github.com/Augustu/go-micro/v2/config/cmd"
+	"github.com/Augustu/go-micro/v2/registry"
+	mnet "github.com/Augustu/go-micro/v2/util/net"
 	consul "github.com/hashicorp/consul/api"
-	"github.com/micro/go-micro/v2/config/cmd"
-	"github.com/micro/go-micro/v2/registry"
-	mnet "github.com/micro/go-micro/v2/util/net"
 	hash "github.com/mitchellh/hashstructure"
 )
 

@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"strings"
 
+	"github.com/Augustu/go-micro/v2/client"
 	"github.com/micro/cli/v2"
-	"github.com/micro/go-micro/v2/client"
 	"github.com/micro/micro/v2/plugin"
 )
 
@@ -16,8 +16,8 @@ type metadata struct {
 func (m *metadata) Flags() []cli.Flag {
 	return []cli.Flag{
 		&cli.StringSliceFlag{
-			Name:   "metadata",
-			Usage:  "A list of key-value pairs to be forwarded as metadata",
+			Name:    "metadata",
+			Usage:   "A list of key-value pairs to be forwarded as metadata",
 			EnvVars: []string{"METADATA"},
 		},
 	}

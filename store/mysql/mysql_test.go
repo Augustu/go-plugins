@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Augustu/go-micro/v2/store"
 	_ "github.com/go-sql-driver/mysql"
-	"github.com/micro/go-micro/v2/store"
 )
 
 var (

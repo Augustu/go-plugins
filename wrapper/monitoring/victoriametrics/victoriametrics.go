@@ -6,10 +6,10 @@ import (
 	"strings"
 	"time"
 
+	"github.com/Augustu/go-micro/v2/client"
+	"github.com/Augustu/go-micro/v2/registry"
+	"github.com/Augustu/go-micro/v2/server"
 	metrics "github.com/VictoriaMetrics/metrics"
-	"github.com/micro/go-micro/v2/client"
-	"github.com/micro/go-micro/v2/registry"
-	"github.com/micro/go-micro/v2/server"
 )
 
 var (

@@ -3,8 +3,8 @@ package pkger
 import (
 	"io/ioutil"
 
+	"github.com/Augustu/go-micro/v2/config/source"
 	"github.com/markbates/pkger"
-	"github.com/micro/go-micro/v2/config/source"
 )
 
 type file struct {

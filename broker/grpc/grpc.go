@@ -13,17 +13,17 @@ import (
 	"sync"
 	"time"
 
+	"github.com/Augustu/go-micro/v2/broker"
+	"github.com/Augustu/go-micro/v2/config/cmd"
+	merr "github.com/Augustu/go-micro/v2/errors"
+	log "github.com/Augustu/go-micro/v2/logger"
+	"github.com/Augustu/go-micro/v2/registry"
+	"github.com/Augustu/go-micro/v2/registry/cache"
+	maddr "github.com/Augustu/go-micro/v2/util/addr"
+	mnet "github.com/Augustu/go-micro/v2/util/net"
+	mls "github.com/Augustu/go-micro/v2/util/tls"
+	proto "github.com/Augustu/go-plugins/broker/grpc/v2/proto"
 	"github.com/google/uuid"
-	"github.com/micro/go-micro/v2/broker"
-	"github.com/micro/go-micro/v2/config/cmd"
-	merr "github.com/micro/go-micro/v2/errors"
-	log "github.com/micro/go-micro/v2/logger"
-	"github.com/micro/go-micro/v2/registry"
-	"github.com/micro/go-micro/v2/registry/cache"
-	maddr "github.com/micro/go-micro/v2/util/addr"
-	mnet "github.com/micro/go-micro/v2/util/net"
-	mls "github.com/micro/go-micro/v2/util/tls"
-	proto "github.com/micro/go-plugins/broker/grpc/v2/proto"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 )
@@ -62,7 +62,7 @@ type grpcEvent struct {
 }
 
 var (
-	registryKey = "github.com/micro/go-micro/v2/registry"
+	registryKey = "github.com/Augustu/go-micro/v2/registry"
 
 	broadcastVersion = "ff.grpc.broadcast"
 	registerTTL      = time.Minute

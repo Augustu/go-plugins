@@ -1,8 +1,8 @@
 package apex
 
 import (
+	log "github.com/Augustu/go-micro/v2/logger"
 	apexLog "github.com/apex/log"
-	log "github.com/micro/go-micro/v2/logger"
 )
 
 var (

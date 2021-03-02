@@ -3,8 +3,8 @@ package mqtt
 import (
 	"testing"
 
-	"github.com/eclipse/paho.mqtt.golang"
-	"github.com/micro/go-micro/v2/broker"
+	"github.com/Augustu/go-micro/v2/broker"
+	mqtt "github.com/eclipse/paho.mqtt.golang"
 )
 
 func TestMQTTMock(t *testing.T) {

@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"io"
 
+	"github.com/Augustu/go-micro/v2/codec"
 	"github.com/asim/go-bson"
-	"github.com/micro/go-micro/v2/codec"
 )
 
 type bsonCodec struct {

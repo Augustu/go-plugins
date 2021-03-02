@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Augustu/go-micro/v2/registry"
 	"github.com/go-log/log"
-	"github.com/micro/go-micro/v2/registry"
 	"github.com/nats-io/nats.go"
 )
 

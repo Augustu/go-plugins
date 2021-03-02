@@ -7,11 +7,11 @@ import (
 	"encoding/gob"
 	"net"
 
+	"github.com/Augustu/go-micro/v2/transport"
+	maddr "github.com/Augustu/go-micro/v2/util/addr"
+	mnet "github.com/Augustu/go-micro/v2/util/net"
+	mls "github.com/Augustu/go-micro/v2/util/tls"
 	"github.com/anacrolix/utp"
-	"github.com/micro/go-micro/v2/transport"
-	maddr "github.com/micro/go-micro/v2/util/addr"
-	mnet "github.com/micro/go-micro/v2/util/net"
-	mls "github.com/micro/go-micro/v2/util/tls"
 )
 
 func (u *utpTransport) Dial(addr string, opts ...transport.DialOption) (transport.Client, error) {

@@ -9,9 +9,9 @@ import (
 	"strings"
 	"time"
 
+	log "github.com/Augustu/go-micro/v2/logger"
+	"github.com/Augustu/go-micro/v2/store"
 	mc "github.com/bradfitz/gomemcache/memcache"
-	log "github.com/micro/go-micro/v2/logger"
-	"github.com/micro/go-micro/v2/store"
 )
 
 type mkv struct {

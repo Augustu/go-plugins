@@ -1,8 +1,8 @@
 package stomp
 
 import (
+	"github.com/Augustu/go-micro/v2/broker"
 	"github.com/go-stomp/stomp"
-	"github.com/micro/go-micro/v2/broker"
 )
 
 type publication struct {

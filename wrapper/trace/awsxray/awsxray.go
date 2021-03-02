@@ -3,10 +3,11 @@ package awsxray
 
 import (
 	"context"
+
+	"github.com/Augustu/go-micro/v2/client"
+	"github.com/Augustu/go-micro/v2/registry"
+	"github.com/Augustu/go-micro/v2/server"
 	"github.com/asim/go-awsxray"
-	"github.com/micro/go-micro/v2/client"
-	"github.com/micro/go-micro/v2/registry"
-	"github.com/micro/go-micro/v2/server"
 )
 
 type xrayWrapper struct {

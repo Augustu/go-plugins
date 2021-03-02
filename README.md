@@ -1,4 +1,4 @@
-# Plugins [![License](https://img.shields.io/:license-apache-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![GoDoc](https://godoc.org/github.com/micro/go-plugins?status.svg)](https://godoc.org/github.com/micro/go-plugins) [![Travis CI](https://travis-ci.org/micro/go-plugins.svg?branch=master)](https://travis-ci.org/micro/go-plugins) [![Go Report Card](https://goreportcard.com/badge/micro/go-plugins)](https://goreportcard.com/report/github.com/micro/go-plugins)
+# Plugins [![License](https://img.shields.io/:license-apache-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![GoDoc](https://godoc.org/github.com/Augustu/go-plugins?status.svg)](https://godoc.org/github.com/Augustu/go-plugins) [![Travis CI](https://travis-ci.org/Augustu/go-plugins.svg?branch=master)](https://travis-ci.org/Augustu/go-plugins) [![Go Report Card](https://goreportcard.com/badge/Augustu/go-plugins)](https://goreportcard.com/report/github.com/Augustu/go-plugins)
 
 Go plugins is a place for community maintained plugins.
 
@@ -40,9 +40,9 @@ Import the plugins in a `plugins.go` file
 package main
 
 import (
-	_ "github.com/micro/go-plugins/broker/rabbitmq/v2"
-	_ "github.com/micro/go-plugins/registry/kubernetes/v2"
-	_ "github.com/micro/go-plugins/transport/nats/v2"
+	_ "github.com/Augustu/go-plugins/broker/rabbitmq/v2"
+	_ "github.com/Augustu/go-plugins/registry/kubernetes/v2"
+	_ "github.com/Augustu/go-plugins/transport/nats/v2"
 )
 ```
 
@@ -52,7 +52,7 @@ Create your service and ensure you call `service.Init`
 package main
 
 import (
-	"github.com/micro/go-micro/v2"
+	"github.com/Augustu/go-micro/v2"
 )
 
 func main() {
@@ -97,8 +97,8 @@ Import and set as options when creating a new service
 
 ```go
 import (
-	"github.com/micro/go-micro/v2"
-	"github.com/micro/go-plugins/registry/kubernetes/v2"
+	"github.com/Augustu/go-micro/v2"
+	"github.com/Augustu/go-plugins/registry/kubernetes/v2"
 )
 
 func main() {
@@ -125,9 +125,9 @@ Create file plugins.go
 package main
 
 import (
-	_ "github.com/micro/go-plugins/broker/rabbitmq/v2"
-	_ "github.com/micro/go-plugins/registry/kubernetes/v2"
-	_ "github.com/micro/go-plugins/transport/nats/v2"
+	_ "github.com/Augustu/go-plugins/broker/rabbitmq/v2"
+	_ "github.com/Augustu/go-plugins/registry/kubernetes/v2"
+	_ "github.com/Augustu/go-plugins/transport/nats/v2"
 )
 ```
 

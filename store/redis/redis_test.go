@@ -1,11 +1,12 @@
 package redis
 
 import (
-	"github.com/go-redis/redis/v7"
-	"github.com/micro/go-micro/v2/store"
 	"os"
 	"testing"
 	"time"
+
+	"github.com/Augustu/go-micro/v2/store"
+	"github.com/go-redis/redis/v7"
 )
 
 func Test_rkv_configure(t *testing.T) {

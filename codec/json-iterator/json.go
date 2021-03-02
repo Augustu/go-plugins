@@ -5,8 +5,8 @@ import (
 	//	jsonstd "encoding/json"
 	"io"
 
+	"github.com/Augustu/go-micro/v2/codec"
 	jsoniter "github.com/json-iterator/go"
-	"github.com/micro/go-micro/v2/codec"
 )
 
 type Codec struct {

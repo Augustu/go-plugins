@@ -3,8 +3,8 @@ package consul
 import (
 	"context"
 
+	"github.com/Augustu/go-micro/v2/config/source"
 	"github.com/hashicorp/consul/api"
-	"github.com/micro/go-micro/v2/config/source"
 )
 
 type addressKey struct{}

@@ -10,10 +10,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/micro/go-plugins/registry/kubernetes/v2/client"
+	"github.com/Augustu/go-plugins/registry/kubernetes/v2/client"
 
-	"github.com/micro/go-micro/v2/config/cmd"
-	"github.com/micro/go-micro/v2/registry"
+	"github.com/Augustu/go-micro/v2/config/cmd"
+	"github.com/Augustu/go-micro/v2/registry"
 )
 
 type kregistry struct {
